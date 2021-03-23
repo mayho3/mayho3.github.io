@@ -71,8 +71,8 @@ content:
         quote: >
           Using CRISPR to screen important developmental gene technqiues
         description: | # this will include new lines to allow paragraphs
-           The goal of the project is to examine how neuronal cell types are affected by the knockout of candidate developmental genes. Through the analysis and visualization of the biological data generated from sequencing the neurons,
-           I hope to uncover genes and genetic programs that are critical for the development and specification of inhibitory neuron cell types.
+           The goal of the project is to examine how neuronal cell types are affected by the knockout of candidate developmental genes. We accomplish this by injecting the CRISPR-Cas9 molecular construct into neuronal precursors to mutate key developmental genes, followed by
+           sequencing of individual, mature neurons at a later time point. Through the analysis and visualization of the sequencing data, I hope to uncover genes and genetic programs that are critical for the development and specification of inhibitory neurons.
 
            This project is a work-in-progres and a collaboration with a postdoc in my lab.
 
