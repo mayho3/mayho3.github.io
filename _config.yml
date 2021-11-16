@@ -54,40 +54,31 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Data Visualization</mark> and <mark>Quantitative Research</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title:                Projects # Title for the section
+    layout:               list # Type of content section (list/text)
     content:
-
-        - layout: top-middle
-        title: CRISPR screen project
-        link: github.com/mayho3
-        # link_text: Project Website
-       # additional_links:
-         # - title:  sproogen/modern-resume-theme
-         #   icon: fab fa-github
-         #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      - layout:           top-middle
+        title:            CRISPR screen project
+        #link:             https://galaxy.ansible.com/pandemonium1986/k8s_toolbox
+        #link_text:        Ansible Galaxy - pandemonium1986/k8s_toolbox
+        #additional_links:
+          #- title:        Pandemonium1986/ansible-collection-k8s-toolbox
+            #icon:         fab fa-github
+            #url:          https://github.com/Pandemonium1986/ansible-collection-k8s-toolbox
         quote: >
           Using CRISPR to screen important developmental genes
-        description: | # this will include new lines to allow paragraphs
-           The goal of the project is to examine how neuronal cell types are affected by the knockout of early expressing transcription factors. We accomplish this by injecting the CRISPR-Cas9 molecular construct into neuronal precursors to introduce frameshift mutations, followed by
-           sequencing of individual, mature neurons at a later time point. Through the analysis and visualization of the sequencing data, I hope to uncover genes and genetic programs that are critical for the development and specification of inhibitory neurons.
-
-           This project is a work-in-progres and a collaboration with a postdoc in my lab.
-
-        - layout: top-middle
-        title: Single-cell delineation of lineage and genetic identity in the mouse brain
-        link: github.com/mayho3
-        # link_text: Project Website
-       # additional_links:
-         # - title:  sproogen/modern-resume-theme
-         #   icon: fab fa-github
-         #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        description:      |
+          The goal of the project is to examine how neuronal cell types are affected by the knockout of early expressing transcription factors. We accomplish this by injecting the CRISPR-Cas9 molecular construct into neuronal precursors to introduce frameshift mutations, followed by 
+            sequencing of individual, mature neurons at a later time point. Through the analysis and visualization of the sequencing data, I hope to uncover genes and genetic programs that are critical for the development and specification of inhibitory neurons.
+            This project is a work-in-progres and a collaboration with a postdoc in my lab.
+      - layout:           top-middle
+        title:            TrackerSeq
+        #link:             https://app.vagrantup.com/pandemonium/boxes/midgar-mnt
+        #link_text:        Vagrant Cloud - pandemonium/midgar-mnt
+        #additional_links:
+          #- title:        Pandemonium1986/vagrant-midgar
+            #icon:         fab fa-github
+            #url:          https://github.com/Pandemonium1986/vagrant-midgar
         quote: >
           Using DNA barcoding to label neural progenitors
         description: | # this will include new lines to allow paragraphs
@@ -96,7 +87,7 @@ content:
            different developmental trajectories during peak neurogenesis. 
            
            This project is now published as an article in Nature. 
-
+           
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
