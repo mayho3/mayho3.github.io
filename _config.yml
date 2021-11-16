@@ -77,6 +77,25 @@ content:
 
            This project is a work-in-progres and a collaboration with a postdoc in my lab.
 
+        - layout: top-middle
+        title: Single-cell delineation of lineage and genetic identity in the mouse brain
+        link: github.com/mayho3
+        # link_text: Project Website
+       # additional_links:
+         # - title:  sproogen/modern-resume-theme
+         #   icon: fab fa-github
+         #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Using DNA barcoding to label neural progenitors
+        description: | # this will include new lines to allow paragraphs
+           I developed a technique called TrackerSeq, a 10X Genomics compatible method that labels cells with a unique lineage barcode. 
+           Using this technique, the team was able to discover that progenitor cells in the GEs can produce daughter cells traversing 
+           different developmental trajectories during peak neurogenesis. 
+           
+           This project is now published as an article in Nature. 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
