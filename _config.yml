@@ -77,7 +77,8 @@ content:
            different developmental trajectories during peak neurogenesis. 
            
            This project is now published as an article in Nature. 
-           
+
+        - layout: top-middle
         title: CRISPR screen project
         link: github.com/mayho3
         # link_text: Project Website
@@ -95,7 +96,6 @@ content:
            sequencing of individual, mature neurons at a later time point. Through the analysis and visualization of the sequencing data, I hope to uncover genes and genetic programs that are critical for the development and specification of inhibitory neurons.
 
            This project is a work-in-progres and a collaboration with a postdoc in my lab.
-
 
 
   - title: Experience # Title for the section
